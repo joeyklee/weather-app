@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="icon" href="images/favicon.png" />
+  </head>
+
+  <body>
+    <div id="app">
+      <header class="header">
+        <!-- <h1 class="header__title">NowCast</h1> -->
+      </header>
+      <main class="main">
+        <!-- .current will update dynamically -->
+        <section class="current"></section>
+        <!-- the form -->
+        <section class="form__section">
+          <form class="form__container">
+            <input class="form__input form__input--text" type="text" placeholder="brooklyn, ny" value="Brookyln,ny" name="location">
+            <input class="form__input form__input--submit" type="submit" value="→" name="submit">
+          </form>
+        </section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script src="./public/js/Weather.js"></script>
+    <script src="./public/js/main.js"></script>
+  </body>
+</html>
